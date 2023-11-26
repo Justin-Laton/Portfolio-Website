@@ -1,0 +1,155 @@
+/* Global Styles */
+html, body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header Styles */
+.header1 {
+    background-color: #3a3a3a;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Styles */
+main {
+    flex: 1 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3a3a3a;
+    color: wheat;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #dfdfdf;
+}
+
+/* Navigation Styles */
+.navbar-light .navbar-toggler {
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.navbar-toggler:hover {
+    border-color: white;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 32px;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+    text-shadow: 0.2em 0.2em #ffffff;
+}
+
+.navbar-nav .nav-link-active {
+    font-size: 32px;
+    background-color: whitesmoke;
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
+
+/* Content Overlay Styles */
+.color-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 60vh;
+}
+
+.heading {
+    color: #eee;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.paragraph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hover Effect for Images */
+.pogi img {
+    transition: transform 0.3s ease;
+}
+
+.pogi:hover img {
+    transform: scale(1.2);
+}
+
+/* Card Styles */
+.card {
+    overflow: hidden;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    color: white;
+    background-color: #3a3a3a;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Button Styles */
+.btn-outline-dark {
+    background-color: whitesmoke;
+}
+
+.btn-outline-dark:hover {
+    color: #ffffff;
+    background-color: black;
+}
